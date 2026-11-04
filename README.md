@@ -165,53 +165,14 @@ The `GAMES/` directory contains 28 popular games ported or originally developed 
 
 ## File Formats & Structure
 
-```
+```text
 ti-84-plus-ce-archive/
-├── alwaysdark/                     # Always-on Dark Mode hook & installer
-│   └── always-dark-1.0/
-├── battery_estimation/             # Battery level detection utility
-├── ceashell-release-v1.1.5/        # CEaShell GUI shell application
-├── cedit/                          # CEdit text editor sources & assets
-│   ├── keybinds/
-│   └── src/
-├── cesium/                         # Cesium program launcher
-├── CE Text Editor/                 # Notes editor & PC text conversion tool
-├── Derivative/                     # Calculus derivative tool with runtime libs
-├── faster_2/                       # Wait-state optimization routines
-├── gamelife/                       # Conway's Game of Life in assembly
-├── GAMES/                          # Curated collection of 28 CE games
-│   ├── 2048/
-│   ├── Adventur/
-│   ├── Androides/
-│   ├── Boxman/
-│   ├── Calcuzap/
-│   ├── Catylizm/
-│   ├── Checkers/
-│   ├── Chess/
-│   ├── CMonster(Breakout)/
-│   ├── Dino Run/
-│   ├── DonkeyKong/
-│   ├── FALLDOWN/
-│   ├── Flappy Bird/
-│   ├── Geometry Dash/
-│   ├── Minesweeper/
-│   ├── Oiram(Mario)/
-│   ├── Oregon Trail/
-│   ├── PacMan/
-│   ├── Portal/
-│   ├── Puzzle Frenzy/
-│   ├── Snailmaze/
-│   ├── Snake CE/
-│   ├── Snowball Struggle/
-│   ├── Spaze Invaders/
-│   ├── Stacker/
-│   ├── SwipeCE/
-│   ├── Tetris/
-│   ├── This is the only level/
-│   └── zombiechase/
-├── arTIfiCE.8xv                    # arTIfiCE jailbreak AppVar
-├── clibs.8xg                       # CE C standard libraries group file
-└── MATHTOOL.8xp                    # TI-BASIC math tool utility
+├── GAMES/                          # Curated collection of classic and community CE games
+├── ceashell-*/                     # CEaShell GUI desktop environment and launcher
+├── cedit/                          # CEdit text and source code editor
+├── cesium/                         # High-performance graphical program launcher
+├── arTIfiCE.8xv                    # Jailbreak payload AppVar for OS 5.5+
+└── clibs.8xg                       # C standard runtime libraries bundle
 ```
 
 ### File Extension Reference
